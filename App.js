@@ -1,20 +1,20 @@
-// let variableLet = "globale";
-// if(true){
-//   let variableLet = "locale";
-//   console.log("Let :" + variableLet);
-// }
-//   console.log("Let :" + variableLet);
+let variableLet = "globale";
+if(true){
+  let variableLet = "locale";
+  console.log("Let :" + variableLet);
+}
+  console.log("Let :" + variableLet);
 
 
-/*function direBonjour(prenom){
+function direBonjour(prenom){
   console.log("bonjour " + prenom);
 }
  // fonction fléché
 let direBonsoir = function(){
   console.log("saluuuuuuuuuut");
 }
-direBonsoir();*/
-// direBonjour('oliviacheri')
+direBonsoir();
+direBonjour('oliviacheri')
 
 let direAurevoir = ()=> "au revoir";
 console.log(direAurevoir());
