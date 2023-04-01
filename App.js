@@ -41,7 +41,7 @@ console.log(user.presentation());
 
 // les objets
 
-let utilisateur = {
+/*let utilisateur = {
   nom : "oli",
   prenom : "edina",
   adresse : {
@@ -62,4 +62,22 @@ let article = {
     descript : "voici l'article de l'année"
   }
 }
-console.log(article['articleA']['titre']);
+console.log(article['articleA']['titre']);*/
+
+
+class utilisateur {
+  constructor (prenom,nom){
+   this.prenom = prenom;
+   this.nom = nom;
+ }
+ 
+ sePresenter(){
+   console.log(`je m'appelle ${this.prenom} ${this.nom}.`);
+ }
+}
+
+let elon = new utilisateur ('elon','musk');
+let archie = new utilisateur ('marie','madelaine');
+
+elon.sePresenter();
+archie.sePresenter();
