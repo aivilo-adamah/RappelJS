@@ -81,3 +81,56 @@ let archie = new utilisateur ('marie','madelaine');
 
 elon.sePresenter();
 archie.sePresenter();
+
+
+
+
+//affectation par décomposition
+
+const nombres = ["un", "deux", "trois", "quatre"];
+
+// const [nbreA,nbreB,nbreC] = nombres;
+// console.log(nbreB);
+
+// le rest parameter
+
+const [nbreA, nbreB, ...nbreC] = nombres;
+console.log(nbreC);
+
+// challenge
+
+const nbres = ["un", "deux", "trois"];
+
+// const [...nbreH] = nbres;
+// console.log(nbreH);
+
+const nbreAmeliores = [...nbres, "quatre", "cinq"];
+
+console.log(nbreAmeliores);
+
+
+// les types primitifs
+ 
+/*  type primitif 
+null
+undefined
+boolean
+
+type par référence
+array
+object
+function*/
+
+
+
+let monObjet = {
+  voiture : 'tesla'
+  
+};
+ console.log(monObjet.voiture); // creer un pointeur
+let monAutreObjet = monObjet;
+console.log(monAutreObjet.voiture);
+
+
+
+
